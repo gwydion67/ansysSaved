@@ -1,0 +1,2 @@
+# ansysSaved
+saved ansys designs

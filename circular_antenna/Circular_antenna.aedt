@@ -185,7 +185,7 @@ $begin 'AnsoftProject'
 		$begin 'Scripts'
 		$end 'Scripts'
 		$begin 'Symbols'
-			$begin 'antennaWithRef'
+			$begin 'antenna'
 				ModTime=1768903807
 				Library=''
 				ModSinceLib=false
@@ -197,7 +197,7 @@ $begin 'AnsoftProject'
 					Rect(0, 0, 0, 0, 0.00254, 0.00254, 0.00508, 0.00508, 0, 0, 0)
 					Rect(0, 1, 0, 0, 0.000423333333333333, 0.00254, 0.000423333333333333, 0.000423333333333334, 0, 0, 0)
 				$end 'Graphics'
-			$end 'antennaWithRef'
+			$end 'antenna'
 			$begin 'Coax'
 				ModTime=1768900843
 				Library=''
@@ -227,7 +227,7 @@ $begin 'AnsoftProject'
 		$end 'Symbols'
 		$begin 'DefInfo'
 			Coax(1002, 0, 0, 0, '', 1768900843, '', 'Coax', '', '', '', '', '', 'Design.bmp', '', 'Project', '', '', 1768900843, '', 0, 0)
-			antennaWithRef(1002, 0, 0, 0, '', 1768903807, '', 'antennaWithRef', '', '', '', '', '', 'Design.bmp', '', 'Project', '', '', 1768903807, '', 0, 0)
+			antenna(1002, 0, 0, 0, '', 1768903807, '', 'antenna', '', '', '', '', '', 'Design.bmp', '', 'Project', '', '', 1768903807, '', 0, 0)
 			ref(1002, 0, 0, 0, '', 1768903865, '', 'ref', '', '', '', '', '', 'Design.bmp', '', 'Project', '', '', 1768903865, '', 0, 0)
 		$end 'DefInfo'
 		$begin 'Compdefs'
@@ -243,18 +243,18 @@ $begin 'AnsoftProject'
 				$end 'Properties'
 				CompExtID=6
 			$end 'Coax'
-			$begin 'antennaWithRef'
+			$begin 'antenna'
 				Library=''
 				CircuitEnv=0
 				Refbase='U'
 				NumParts=1
 				ModSinceLib=true
 				$begin 'Properties'
-					TextProp('Representation', 'SRD', '', 'antennaWithRef')
+					TextProp('Representation', 'SRD', '', 'antenna')
 					TextProp('Owner', 'SRD', '', 'HFSS')
 				$end 'Properties'
 				CompExtID=6
-			$end 'antennaWithRef'
+			$end 'antenna'
 			$begin 'ref'
 				Library=''
 				CircuitEnv=0
@@ -1268,7 +1268,7 @@ $begin 'AnsoftProject'
 	$end 'HFSSModel'
 	$begin 'HFSSModel'
 		RepRewriteV2=true
-		Name='antennaWithRef'
+		Name='antenna'
 		DesignID=2
 		'Use Advanced DC Extrapolation'=false
 		'Use Power S'=false
@@ -3641,7 +3641,7 @@ $begin 'AnsoftProject'
 			$begin 'Compinst'
 				ID='1'
 				Status='Status'
-				CompName='antennaWithRef'
+				CompName='antenna'
 				GatesInUse()
 				$begin 'Properties'
 					TextProp('ID', 'SRID', '', '1')
@@ -3667,7 +3667,7 @@ $begin 'AnsoftProject'
 			$end 'Compinst'
 		$end 'CompInstances'
 		$begin 'Instance'
-			DesignEditor='antennaWithRef'
+			DesignEditor='antenna'
 			ID='1'
 			$begin 'HfssDesignInstance'
 				DesignInstanceID=3
@@ -3883,7 +3883,7 @@ K4542x0YQxvGOa4yFN3iquYYuoou1rpTrNJ20uuh5P8L/AIC/Az4If25/wpf4L/Cf4Q/8JP8A2Z/wkv\
 jGhRhe0IRUYq7bdoxSSu227LVts+dxOKxONrzxOMxFTF4mpbmqVZyqTlZKK5pybk7RSirvRJJaJBRRR\
 Wpgf/9k='
 	$begin 'DesignInfo'
-		DesignName='antennaWithRef'
+		DesignName='antenna'
 		Notes=''
 		Factory='HFSS'
 		IsSolved=false
